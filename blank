@@ -1,0 +1,172 @@
+Data:
+ Object {
+  "description": "Scotland, UK",
+  "matched_substrings": Array [
+    Object {
+      "length": 7,
+      "offset": 0,
+    },
+  ],
+  "place_id": "ChIJn6HyA8TiYUgRFAfDCdj6wec",
+  "reference": "ChIJn6HyA8TiYUgRFAfDCdj6wec",
+  "structured_formatting": Object {
+    "main_text": "Scotland",
+    "main_text_matched_substrings": Array [
+      Object {
+        "length": 7,
+        "offset": 0,
+      },
+    ],
+    "secondary_text": "UK",
+  },
+  "terms": Array [
+    Object {
+      "offset": 0,
+      "value": "Scotland",
+    },
+    Object {
+      "offset": 10,
+      "value": "UK",
+    },
+  ],
+  "types": Array [
+    "administrative_area_level_1",
+    "political",
+    "geocode",
+  ],
+}
+
+
+Details:
+ Object {
+  "address_components": Array [
+    Object {
+      "long_name": "Scotland",
+      "short_name": "Scotland",
+      "types": Array [
+        "administrative_area_level_1",
+        "political",
+      ],
+    },
+    Object {
+      "long_name": "United Kingdom",
+      "short_name": "GB",
+      "types": Array [
+        "country",
+        "political",
+      ],
+    },
+  ],
+  "adr_address": "Scotland, <span class=\"country-name\">UK</span>",
+  "formatted_address": "Scotland, UK",
+  "geometry": Object {
+    "location": Object {
+      "lat": 56.49067119999999,
+      "lng": -4.2026458,
+    },
+    "viewport": Object {
+      "northeast": Object {
+        "lat": 60.86075148144825,
+        "lng": -0.7246750613388332,
+      },
+      "southwest": Object {
+        "lat": 54.63323814656345,
+        "lng": -8.650007234132234,
+      },
+    },
+  },
+  "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/geocode-71.png",
+  "icon_background_color": "#7B9EB0",
+  "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+  "name": "Scotland",
+  "photos": Array [
+    Object {
+      "height": 408,
+      "html_attributions": Array [
+        "<a href=\"https://maps.google.com/maps/contrib/108933587345666100977\">Jassim Anwar</a>",
+      ],
+      "photo_reference": "AcYSjRhMXr8vn5IjoJqL1usqpGyl3Db0qSNvrqKRpnp5TVOQFRWfihzrJylYI20emSlA0c0RONLcPX9QDAAE13kt1mINB03FUD-J7w9BZmiF2eAhXNT2omsQeU4ptYI7gdPXwk0YO1kUAg371D6RcX-zYHvaOTJ9QVNNtxR0h9c1zikoLzcj",
+      "width": 612,
+    },
+    Object {
+      "height": 3024,
+      "html_attributions": Array [
+        "<a href=\"https://maps.google.com/maps/contrib/104462980257818821109\">Nona Aronov</a>",
+      ],
+      "photo_reference": "AcYSjRjy6_yKMXYwU-bH9ez3Dlk8cKx-HMHHfSDpdk-NTFOOsDPtYOwTatFI82WHL9VudrY5Fq1TawIrFcMJm_yMB3kSnebyheBLIJgB_KD-B1Di-0prq51_s_H5aZrIyw160Z0mt_WxYxbOxcb4_4GZtJVFwQKteEX_QEe9vt3AS9ZAeVul",
+      "width": 4032,
+    },
+    Object {
+      "height": 3024,
+      "html_attributions": Array [
+        "<a href=\"https://maps.google.com/maps/contrib/102366764422777414779\">Ida S</a>",
+      ],
+      "photo_reference": "AcYSjRii7-Qv6Ah5yK4l69llVsLpX18jmapgnMnXCqw998DSbi6QhUNRwVDPqnPy64z0Qy9v-pAZPRJ-9iBao6QTnhGmMAvfy4BZwYTIizaLScut9dlHNRdQLuOxCWhKGs9nNxjq5irFC3LYlkwPyrQmBvZm6D9WGUQ4DcFvlb5jfb33tZUF",
+      "width": 4032,
+    },
+    Object {
+      "height": 1749,
+      "html_attributions": Array [
+        "<a href=\"https://maps.google.com/maps/contrib/101892546811434973527\">Jacek Goronski</a>",
+      ],
+      "photo_reference": "AcYSjRiuxOmntiQAeDpInGpA3-hFtNl_tb-upC5AW0TqNDaIA4IGErp_gbgWghaTudHpbEYYpHpH3bEaItIgUuF8llaljCH0i-TuVfx8lterXNbRGaUlcS-lmPf0y-XyjBnozEaN9J7aiq6Nrq2UX16_REHvDS8yTJ-4PCG0y20PORa3t4Fz",
+      "width": 3887,
+    },
+    Object {
+      "height": 1200,
+      "html_attributions": Array [
+        "<a href=\"https://maps.google.com/maps/contrib/114632504013132095259\">Paul Briscoe</a>",
+      ],
+      "photo_reference": "AcYSjRgZYGdSEhE_SVEnqK0EaxwGNlLdYalcen1psyc19gmEw4FGV5BySS44pRwYWoXkPYeKg_ch9ZcqXrlxD3aW6jVzi0bGM0QxuRr_2jj23ztUxlVClljFqZ8EUPMxt1Ise6k4S4Mwo-kKqwIq1phjlt7eheUc5av_4XY1pPi9PDDQLg5u",
+      "width": 1600,
+    },
+    Object {
+      "height": 2252,
+      "html_attributions": Array [
+        "<a href=\"https://maps.google.com/maps/contrib/107193413464459824536\">Janusz Piechocki</a>",
+      ],
+      "photo_reference": "AcYSjRg5Deb16-TBtvNZOnZCzgvjv5JT5QjrfAUstvMxKVzAq7kMlpJs_4TyZEciGkxKbTDPQvhqsEi7czVmPDINJN2rQA8oGGjWDQPDrdeGm-C1EBtCk_frZpsBCtek2HSne1kMHuKQA-wWsZnfBYCIa38e_VwXlA0YsdYh3MYCW2r2iL_e",
+      "width": 4000,
+    },
+    Object {
+      "height": 665,
+      "html_attributions": Array [
+        "<a href=\"https://maps.google.com/maps/contrib/112904178425011771283\">Glenn Meyer</a>",
+      ],
+      "photo_reference": "AcYSjRjEaQ5DpWbToNszSLthwfJMGuWh-LSqF37EynyjOFjPi-nYx4YnIuL4Yrv9dnT6g1_d_q8gpoIO30U7kArapkhMrwGHUZkvn8IRl7QnIeh_6JzGcHVDSAoSdk5HVPNduZttf7Jq7H6NR81n_LNr6mObr5WbvQe8kV1Ct3jbZwHeRhFB",
+      "width": 1182,
+    },
+    Object {
+      "height": 1080,
+      "html_attributions": Array [
+        "<a href=\"https://maps.google.com/maps/contrib/101449200378322112442\">Raffaele Messetti</a>",
+      ],
+      "photo_reference": "AcYSjRhFQNm6yyoc8WxLLIWUFkhio15ND4fbB_xbk2GnvaQ4BGBC8Da_eY_rWx504ktkcH4Gogg2UjYs_P99J01FzN1XM93u_bUz9Xuu4tOyJ1DVqXiJEkUxlem6ny8eMPpuckbQvXZmOU3L_RNT9-at9JbDkyCZ90_G9CvpAArE7yGIcWIk",
+      "width": 1080,
+    },
+    Object {
+      "height": 1960,
+      "html_attributions": Array [
+        "<a href=\"https://maps.google.com/maps/contrib/118027887313422508287\">Daria G</a>",
+      ],
+      "photo_reference": "AcYSjRiGfOS8cuxKbSq5jAMo3_ua8MWO-NsVJnFC9LerK17umANGTiV15SwNt1mzB-MIIzLtj30DfW_VrL6ZV9XfwbMdEjJJA5pgN0sVqP83yhlEBi_G2RYoVFSs1rdS_d55bM_5h_yhCoTtfQfXaoUAn5AuIFyUhnIvJiB4UWBNkUq6IcEy",
+      "width": 4032,
+    },
+    Object {
+      "height": 2560,
+      "html_attributions": Array [
+        "<a href=\"https://maps.google.com/maps/contrib/109825059734148318265\">David MacKinnon</a>",
+      ],
+      "photo_reference": "AcYSjRhTqn3nFaDZBGZCJ8DLqDkPd0UChjGX8zQfnUlq25JQ8mkgj8emBWuLQzaIWdzYSighmOpe3lO2wwgYZYzXDM2GyxfJfeLLVtLKvVik9I8ojDLdyWA4erXA2usvCMpToyWK4KPSFfeXHrbHnYUEuvWhXmQ3Bkz04WNBoEju2K0alcpO",
+      "width": 1920,
+    },
+  ],
+  "place_id": "ChIJn6HyA8TiYUgRFAfDCdj6wec",
+  "reference": "ChIJn6HyA8TiYUgRFAfDCdj6wec",
+  "types": Array [
+    "administrative_area_level_1",
+    "political",
+  ],
+  "url": "https://maps.google.com/?q=Scotland,+UK&ftid=0x4861e2c403f2a19f:0xe7c1fad809c30714",
+  "utc_offset": 60,
+}
