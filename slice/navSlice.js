@@ -1,3 +1,5 @@
+// navigation slice 
+// to hold state info for navigation
 import { createSlice } from '@reduxjs/toolkit'
 
 
@@ -24,11 +26,11 @@ export const navSlice = createSlice({
 })
 
 // Action creators are generated for each case reducer function
-export const { setOrigin, setDestination, setTravelTimeInformation } = navSlice.actions
+export const { setOrigin, setDestination, setTravelTimeInformation } = navSlice.actions;
 
 // selectors to grab state from navSlice
 export const selectOrigin = state => state.nav.origin;
 export const selectDestination = state => state.nav.destination;
 export const selectTravelTimeDestination = state => state.nav.travelTimeDestination;
 
-export default navSlice.reducer
+export default navSlice.reducer;
