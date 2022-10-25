@@ -40,7 +40,7 @@ const NavFavourites = () => {
                         size={18}
                     />
                     <View>
-                        <Text style={tw`font-semibold text-lg`}>{location}</Text>
+                        <Text style={tw`font-bold text-lg text-neutral-800`}>{location}</Text>
                         <Text style={tw`text-gray-500`}>{destination}</Text>
                     </View>
                 </TouchableOpacity>
