@@ -42,7 +42,7 @@ const NavOptions = () => {
                             style={{ height:120, width:120, resizeMode: 'contain' }}
                             source={{ uri: item.image }}
                         />
-                        <Text style={tw`mt-2 text-lg font-semibold`}>{item.title}</Text>
+                        <Text style={tw`mt-2 text-lg font-semibold text-black dark:text-white`}>{item.title}</Text>
                         <Icon
                             style={tw`p-2 bg-black rounded-full w-10 mt-4`} 
                             name="arrowright" 
