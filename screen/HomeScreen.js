@@ -5,6 +5,7 @@ import tw from 'twrnc';
 import { GooglePlacesAutocomplete } from 'react-native-google-places-autocomplete';
 import { GOOGLE_MAPS_API_KEY } from '@env';
 import NavOptions from '../components/NavOptions';
+import NavFavourites from '../components/NavFavourites';
 import { setOrigin, setDestination } from '../slice/navSlice';
 
 
@@ -56,6 +57,8 @@ const HomeScreen = () => {
         />
         {/* Links to Map & Eat screen */}
         <NavOptions /> 
+        {/* Links to favourite places */}
+        <NavFavourites />
       </View>
     </SafeAreaView>
   )
