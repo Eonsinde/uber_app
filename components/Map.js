@@ -36,7 +36,7 @@ const Map = () => {
                 longitudeDelta: 0.005,
             }}
         >
-            {/* create directions */}
+            {/* create markers from origin to destination */}
             {origin && destination && (
                 <MapViewDirections
                     origin={origin.description}
@@ -47,7 +47,7 @@ const Map = () => {
                 />
             )}
 
-            {/* create maps for origin and destination */}
+            {/* create markers for origin and destination */}
             {origin?.location && (<Marker 
                 coordinate={{
                     latitude: origin.location.lat,
