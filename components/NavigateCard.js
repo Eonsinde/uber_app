@@ -8,6 +8,7 @@ import { GooglePlacesAutocomplete } from 'react-native-google-places-autocomplet
 import { GOOGLE_MAPS_API_KEY } from '@env';
 import tw from 'twrnc'
 import { setDestination } from '../slice/navSlice';
+import NavFavourites from './NavFavourites';
 
 
 const NavigateCard = () => {
@@ -41,6 +42,9 @@ const NavigateCard = () => {
                         nearbyPlacesAPI='GooglePlacesSearch'
                         debounce={400}
                     />
+                </View>
+                <View>
+                    <NavFavourites />
                 </View>
             </View>
         </SafeAreaView>
