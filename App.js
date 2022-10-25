@@ -1,4 +1,5 @@
 import 'react-native-gesture-handler';
+import { KeyboardAvoidingView, Platform } from 'react-native';
 import { StatusBar } from 'expo-status-bar';
 import { SafeAreaProvider } from 'react-native-safe-area-context';
 import { NavigationContainer } from '@react-navigation/native';
@@ -21,12 +22,17 @@ export default function App() {
       <Provider store={store}>
         <NavigationContainer>
           <SafeAreaProvider>
-            <StatusBar style="auto" />
-            <Stack.Navigator>
-              <Stack.Screen name="HomeScreen" component={HomeScreen} options={{ headerShown: false, gestureEnabled: true, gestureDirection: 'horizontal' }} />
-              <Stack.Screen name="MapScreen" component={MapScreen} options={{ headerShown: false, gestureEnabled: true, gestureDirection: 'horizontal' }} />
-              <Stack.Screen name="EatsScreen" component={EatsScreen} options={{ headerShown: false, gestureEnabled: true, gestureDirection: 'horizontal' }} />
-            </Stack.Navigator>
+            <KeyboardAvoidingView 
+              behavior={Platform.OS === 'ios' ? 'padding' : 'height'}
+              style={{flex: 1}}
+            >
+              <StatusBar style="auto" />
+              <Stack.Navigator>
+                <Stack.Screen name="HomeScreen" component={HomeScreen} options={{ headerShown: false, gestureEnabled: true, gestureDirection: 'horizontal' }} />
+                <Stack.Screen name="MapScreen" component={MapScreen} options={{ headerShown: false, gestureEnabled: true, gestureDirection: 'horizontal' }} />
+                <Stack.Screen name="EatsScreen" component={EatsScreen} options={{ headerShown: false, gestureEnabled: true, gestureDirection: 'horizontal' }} />
+              </Stack.Navigator>
+            </KeyboardAvoidingView>
           </SafeAreaProvider>
         </NavigationContainer>
       </Provider>
