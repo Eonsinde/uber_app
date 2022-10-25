@@ -1,9 +1,9 @@
-import { View, Text, SafeAreaView } from 'react-native'
+import { StatusBar, Text, SafeAreaView } from 'react-native'
 import React from 'react'
 
 const EatsScreen = () => {
   return (
-    <SafeAreaView>
+    <SafeAreaView style={{ marginTop: StatusBar.currentHeight || 0 }}>
       <Text>EatsScreen</Text>
     </SafeAreaView>
   )
