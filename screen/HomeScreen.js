@@ -1,6 +1,6 @@
 import React from 'react'
 import { useDispatch } from 'react-redux';
-import { StyleSheet, View, SafeAreaView, Image, StatusBar } from 'react-native'
+import { StyleSheet, View, SafeAreaView, Image, StatusBar, useColorScheme  } from 'react-native'
 import tw from 'twrnc';
 import { GooglePlacesAutocomplete } from 'react-native-google-places-autocomplete';
 import { GOOGLE_MAPS_API_KEY } from '@env';
@@ -11,9 +11,10 @@ import { setOrigin, setDestination } from '../slice/navSlice';
 
 const HomeScreen = () => {
   const dispatch = useDispatch();
+  // const colorScheme = useColorScheme();
 
   return (
-    <SafeAreaView style={[tw`bg-white h-full`, { marginTop: StatusBar.currentHeight || 0 }]}>
+    <SafeAreaView style={[tw`bg-white dark:bg-dark h-full`, { marginTop: StatusBar.currentHeight || 0 }]}>
       <View style={tw`p-5`}>
         {/* Uber logo */}
         <Image 
@@ -65,5 +66,3 @@ const HomeScreen = () => {
 }
 
 export default HomeScreen
-
-const styles = StyleSheet.create({})
