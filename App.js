@@ -9,6 +9,8 @@ import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import { Provider } from 'react-redux';
 import store from './store';
 
+import tw, { useDeviceContext } from 'twrnc';
+
 import HomeScreen from './screen/HomeScreen';
 import MapScreen from './screen/MapScreen';
 import EatsScreen from './screen/EatsScreen';
@@ -18,6 +20,8 @@ import EatsScreen from './screen/EatsScreen';
 const Stack = createNativeStackNavigator();
 
 export default function App() {
+  useDeviceContext(tw);
+
   return (
       <Provider store={store}>
         <NavigationContainer>
