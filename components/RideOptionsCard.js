@@ -41,6 +41,7 @@ const RideOptionsCard = ({ navigation }) => {
         </TouchableOpacity>
         <Text style={tw`text-center py-5 text-xl`}>Select a Ride</Text>
       </View>
+
       <FlatList
         data={data}
         keyExtractor={(item) => item.id}
@@ -65,6 +66,7 @@ const RideOptionsCard = ({ navigation }) => {
           </TouchableOpacity>
         )}
       />
+      
       {
         selected
         ?
