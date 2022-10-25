@@ -20,9 +20,9 @@ const MapScreen = () => {
       </View>
       <View style={tw`h-1/2`}>
         <Stack.Navigator
-          screenOptions={{
-            header : ({ ...props }) => <ScreenHeader {...props} />
-          }}
+          // screenOptions={{
+          //   header : ({ ...props }) => <ScreenHeader {...props} />
+          // }}
         >
           <Stack.Screen 
             name='NavigateCard' 
@@ -35,8 +35,8 @@ const MapScreen = () => {
             name='RideOptionsCard' 
             component={RideOptionsCard}
             options={{
-              headerTitle: 'Ride Options'
-              // headerShown: false 
+              // headerTitle: 'Ride Options',
+              headerShown: false 
             }}
           />
         </Stack.Navigator>
