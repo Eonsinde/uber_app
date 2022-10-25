@@ -1,6 +1,6 @@
 import React from 'react'
 import { useSelector } from 'react-redux';
-import { View, Text, SafeAreaView } from 'react-native'
+// import { View, Text, SafeAreaView } from 'react-native'
 import MapView, { Marker } from 'react-native-maps';
 import MapViewDirections from 'react-native-maps-directions';
 import { selectDestination, selectOrigin } from '../slice/navSlice';
@@ -18,7 +18,8 @@ const Map = () => {
         if (!origin || !destination) return;
 
         mapRef.current.fitToSuppliedMarkers(["origin", "destination"], {
-            edgePadding: { top: 50, left: 50, right: 50, bottom: 50 }
+            edgePadding: { top: 50, left: 50, right: 50, bottom: 50 },
+            animated: true
         });
     }, [origin, destination]);
 
@@ -27,6 +28,7 @@ const Map = () => {
             ref={mapRef}
             style={tw`flex-1`}
             mapType='mutedStandard'
+            loadingEnabled={true}
             initialRegion={{
                 latitude: origin.location.lat,
                 longitude: origin.location.lng,
